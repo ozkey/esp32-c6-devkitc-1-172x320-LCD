@@ -154,4 +154,141 @@
  C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/esp_hw_support/include/hal/cpu_ll.h \
  C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/cores/esp32/freertos_stats.h \
  C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
- C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/Arduino_GFX_Library.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/Arduino_DataBus.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/YCbCr2RGB.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_AVRPAR8.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_UNOPAR8.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/Arduino_DataBus.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_AVRPAR16.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_DUEPAR16.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32DSIPanel.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32LCD8.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32LCD16.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32PAR8.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32PAR8Q.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32PAR8QQ.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32PAR8QQQ.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32PAR16.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32PAR16Q.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32PAR16QQ.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32QSPI.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/esp_driver_spi/include/driver/spi_master.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/hal/include/hal/spi_types.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/esp_driver_spi/include/driver/spi_common.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/esp_system/include/esp_ipc.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32RGBPanel.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32S2PAR8.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32S2PAR8Q.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32S2PAR16.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32S2PAR16Q.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32SPI.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/soc/esp32c6/register/soc/spi_reg.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/soc/esp32c6/register/soc/spi_struct.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/soc/esp32c6/include/soc/periph_defs.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/soc/esp32c6/include/soc/interrupts.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/esp_hw_support/port/esp32c6/include/soc/rtc.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/hal/esp32c6/include/hal/clk_gate_ll.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/hal/platform_port/include/hal/assert.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/soc/esp32c6/register/soc/pcr_reg.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-periman.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/esp_hw_support/include/esp_private/periph_ctrl.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/esp_rom/esp32c6/include/esp32c6/rom/ets_sys.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/esp_rom/esp32c6/include/esp32c6/rom/gpio.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP32SPIDMA.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/esp_hw_support/include/esp_memory_utils.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_ESP8266SPI.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_HWSPI.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_mbedSPI.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_NRFXSPI.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_RPiPicoPAR8.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_RPiPicoPAR16.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_RPiPicoSPI.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_RTLPAR8.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_STM32PAR8.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_SWPAR8.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_SWPAR16.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_SWSPI.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_Wire.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-log.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/cores/esp32/HardwareI2C.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_XL9535SWSPI.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/databus/Arduino_XCA9554SWSPI.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/Arduino_GFX.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/Arduino_G.h \
+ C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/gfxfont.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/canvas/Arduino_Canvas.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/canvas/../Arduino_DataBus.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/canvas/../Arduino_GFX.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/canvas/Arduino_Canvas_Indexed.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/canvas/Arduino_Canvas_3bit.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/canvas/Arduino_Canvas_Mono.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9488_3bit.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9488.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/../Arduino_GFX.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/../Arduino_TFT.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/../Arduino_DataBus.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/../Arduino_GFX.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_AXS15231B.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_CO5300.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/../Arduino_OLED.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_DSI_Display.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/../Arduino_DataBus.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_GC9A01.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/./Arduino_GFX.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_GC9C01.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_GC9D01.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_GC9106.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_GC9107.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_HX8347C.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_HX8347D.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_HX8352C.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_HX8357A.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_HX8357B.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_HX8369A.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9225.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9331.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9341.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9342.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9481_18bit.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/../Arduino_TFT_18bit.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/../Arduino_TFT.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9486.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9486_18bit.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9488.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9488_18bit.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ILI9806.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_JBT6K71.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_JD9613.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_NT35310.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_NT35510.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_NT39125.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_NV3007.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_NV3023.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_NV3041A.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_OTM8009A.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_R61529.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_RM67162.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_RM690B0.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_RGB_Display.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_SEPS525.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_SH1106.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/../databus/Arduino_Wire.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_SH8601.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_SPD2010.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_SSD1283A.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_SSD1306.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_SSD1331.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_SSD1351.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_SSD1357.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ST7735.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ST7789.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ST77916.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_ST7796.h \
+ .pio/libdeps/esp32-c6-devkitc-1/GFX\ Library\ for\ Arduino/src/display/Arduino_WEA2012.h

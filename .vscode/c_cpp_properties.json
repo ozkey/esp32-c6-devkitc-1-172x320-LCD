@@ -10,6 +10,9 @@
             "includePath": [
                 "D:/helloWorld1/include",
                 "D:/helloWorld1/src",
+                "D:/helloWorld1/.pio/libdeps/esp32-c6-devkitc-1/GFX Library for Arduino/src",
+                "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/newlib/platform_include",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/freertos/config/include",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/freertos/config/include/freertos",
@@ -373,7 +376,6 @@
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -382,7 +384,6 @@
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/Zigbee/src",
                 ""
             ],
@@ -391,6 +392,9 @@
                 "path": [
                     "D:/helloWorld1/include",
                     "D:/helloWorld1/src",
+                    "D:/helloWorld1/.pio/libdeps/esp32-c6-devkitc-1/GFX Library for Arduino/src",
+                    "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                    "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/newlib/platform_include",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/freertos/config/include",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32-libs/esp32c6/include/freertos/config/include/freertos",
@@ -754,7 +758,6 @@
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/RainMaker/src",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                    "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -763,7 +766,6 @@
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
-                    "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     "C:/Users/ozkey/.platformio/packages/framework-arduinoespressif32/libraries/Zigbee/src",
                     ""
                 ]
