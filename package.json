@@ -1,0 +1,16 @@
+{
+  "name": "esp32-c6-devkitc-1-172x320-lcd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "C:\\Users\\ozkey\\.platformio\\penv\\Scripts\\platformio.exe  run",
+    "upload": " C:\\Users\\ozkey\\.platformio\\penv\\Scripts\\platformio.exe run --target upload --environment esp32-c6-devkitc-1",
+    "monitor": "C:\\Users\\ozkey\\.platformio\\penv\\Scripts\\platformio.exe device monitor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ozkey/esp32-c6-devkitc-1-172x320-LCD.git"
+  },
+  "private": true
+}

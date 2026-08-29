@@ -2,3 +2,8 @@
 
 PlatformIO plugin install and enable on workspace
 
+commands
+
+Build: pio run
+Upload: pio run -t upload
+Monitor: pio device monitor
