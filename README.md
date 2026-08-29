@@ -2,8 +2,14 @@
 
 PlatformIO plugin install and enable on workspace
 
-commands
+## IntelliJ as an editor for PlatformIO
 
-Build: pio run
-Upload: pio run -t upload
-Monitor: pio device monitor
+Use the package.json to run the PlatformIO commands from the terminal,
+as there is no PlatformIO plugin for IntelliJ, only for Clion.
+ 
+🚀 Why this approach is actually pretty nice
+Portable — anyone cloning your repo gets the same commands
+Simple — no IntelliJ plugin magic, just scripts
+Flexible — you can add custom tasks (clean, test, open serial, etc.)
+Works across IDEs — IntelliJ, WebStorm, VS Code, etc.
+It’s not the “intended” PlatformIO workflow, but it’s absolutely functional.
