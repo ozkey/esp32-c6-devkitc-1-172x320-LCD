@@ -1,7 +1,18 @@
 #include <Arduino.h>
 #include <Arduino_GFX_Library.h>
+#include <WiFi.h>
+#include <time.h>
 #include <math.h>
 #include "clock.h"
+#include "secrets.h"
+
+// ============================================================
+// NTP / TIME SETTINGS
+// ============================================================
+
+const char *NTP_SERVER = "pool.ntp.org";
+const long GMT_OFFSET_SEC = 10 * 60 * 60; // Sydney
+const int DAYLIGHT_OFFSET_SEC = 0;
 
 // ============================================================
 // WAVESHARE ESP32-C6-LCD-1.47
@@ -184,7 +195,6 @@ void drawClockFace() {
 // ============================================================
 // DRAW HAND
 // ============================================================
-
 void drawHand(
     float angle,
     int length,
@@ -241,17 +251,17 @@ void drawHands() {
     // Get current time
     // --------------------------------------------------------
 
-    unsigned long totalSeconds =
-        millis() / 1000;
+    struct tm timeInfo;
+    getLocalTime(&timeInfo);
 
     float seconds =
-        totalSeconds % 60;
+        timeInfo.tm_sec;
 
     float minutes =
-        (totalSeconds / 60) % 60;
+        timeInfo.tm_min;
 
     float hours =
-        (totalSeconds / 3600) % 12;
+        timeInfo.tm_hour % 12;
 
     // --------------------------------------------------------
     // Calculate angles
@@ -381,6 +391,75 @@ void drawPendulum() {
 }
 
 // ============================================================
+// LOADING ANIMATION
+// ============================================================
+
+void drawLoadingFrame(const char *message) {
+
+    gfx->fillScreen(DARK_BROWN);
+
+    gfx->drawRect(3, 3, SCREEN_W - 6, SCREEN_H - 6, GOLD);
+    gfx->drawRect(6, 6, SCREEN_W - 12, SCREEN_H - 12, GOLD);
+
+    // Spinning dots around a circle
+    float t = millis() / 1000.0;
+
+    const int dotCount = 8;
+
+    for (int i = 0; i < dotCount; i++) {
+
+        float angle =
+            (i * 360.0 / dotCount + t * 180.0) * DEG_TO_RAD;
+
+        int x = CLOCK_X + cos(angle) * 30;
+        int y = CLOCK_Y + sin(angle) * 30;
+
+        uint16_t colour =
+            (i == 0) ? GOLD_LIGHT : GOLD;
+
+        gfx->fillCircle(x, y, 4, colour);
+    }
+
+    gfx->setTextColor(CREAM);
+    gfx->setTextSize(1);
+    gfx->setCursor(CLOCK_X - (strlen(message) * 3), CLOCK_Y + 60);
+    gfx->print(message);
+
+    gfx->flush();
+}
+
+// ============================================================
+// WIFI + NTP TIME SYNC
+// ============================================================
+
+void connectAndSyncTime() {
+
+    WiFi.mode(WIFI_STA);
+    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+
+    Serial.print("Connecting to WiFi");
+
+    while (WiFi.status() != WL_CONNECTED) {
+        drawLoadingFrame("Connecting to WiFi...");
+        Serial.print(".");
+        delay(100);
+    }
+
+    Serial.println();
+    Serial.println("WiFi connected!");
+
+    configTime(GMT_OFFSET_SEC, DAYLIGHT_OFFSET_SEC, NTP_SERVER);
+
+    struct tm timeInfo;
+
+    while (!getLocalTime(&timeInfo, 100)) {
+        drawLoadingFrame("Syncing time...");
+    }
+
+    Serial.println("Time synced!");
+}
+
+// ============================================================
 // SETUP
 // ============================================================
 
@@ -397,6 +476,9 @@ void clock_setup() {
 
     // Start canvas
     gfx->begin();
+
+    // Show loading animation while connecting and syncing time
+    connectAndSyncTime();
 
     // Draw first frame
     drawClockFace();
